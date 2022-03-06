@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.prediccionmedicaj.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_perfil"
+        android:name="com.example.prediccionmedicaj.ui.profile.ProfileFragment"
+        android:label="@string/menu_perfil"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_historial_consultas"
+        android:name="com.example.prediccionmedicaj.ui.clinicHistory.ClinicHistoryFragment"
+        android:label="@string/menu_historial_consultas"
+        tools:layout="@layout/fragment_clinic_history" >
+        <action
+            android:id="@+id/action_nav_historial_consultas_to_patientSelectedFragment"
+            app:destination="@id/patientSelectedFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_pacientes"
+        android:name="com.example.prediccionmedicaj.ui.pacientes.PacientesFragment"
+        android:label="@string/menu_pacientes"
+        tools:layout="@layout/fragment_pacientes" >
+        <action
+            android:id="@+id/action_nav_pacientes_to_createPatientFragment"
+            app:destination="@id/createPatientFragment" />
+        <action
+            android:id="@+id/action_nav_pacientes_to_nav_historial_consultas"
+            app:destination="@id/nav_historial_consultas" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.prediccionmedicaj.ui.settings.SettingsFragment"
+        android:label="@string/menu_configuracion"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/nav_help"
+        android:name="com.example.prediccionmedicaj.ui.help.HelpFragment"
+        android:label="@string/menu_help"
+        tools:layout="@layout/fragment_help" />
+
+    <fragment
+        android:id="@+id/nav_feedback"
+        android:name="com.example.prediccionmedicaj.ui.feedback.FeedbackFragment"
+        android:label="@string/menu_feedback"
+        tools:layout="@layout/fragment_feedback" />
+    <fragment
+        android:id="@+id/createPatientFragment"
+        android:name="com.example.prediccionmedicaj.ui.createPatient.CreatePatientFragment"
+        android:label="@string/menuCreatePatient"
+        tools:layout="@layout/fragment_create_patient" >
+        <action
+            android:id="@+id/action_createPatientFragment_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/patientSelectedFragment"
+        android:name="com.example.prediccionmedicaj.ui.clinicHistory.PatientSelected.SelectedPatientFragment"
+        android:label="@string/menuSelectedPatient"
+        tools:layout="@layout/fragment_selected_patient" />
+</navigation>

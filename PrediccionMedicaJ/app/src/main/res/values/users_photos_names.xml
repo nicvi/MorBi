@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="usersPhotosNames">
+        <item>user_1</item>
+        <item>user_2</item>
+        <item>user_3</item>
+        <item>user_4</item>
+        <item>user_5</item>
+        <item>user_6</item>
+        <item>user_7</item>
+        <item>user_8</item>
+        <item>user_9</item>
+        <item>user_10</item>
+        <item>user_11</item>
+        <item>user_12</item>
+        <item>user_13</item>
+        <item>user_14</item>
+        <item>user_15</item>
+        <item>user_16</item>
+        <item>user_17</item>
+        <item>user_18</item>
+        <item>user_19</item>
+        <item>user_20</item>
+        <item>user_21</item>
+        <item>user_22</item>
+        <item>user_23</item>
+    </string-array>
+
+</resources>

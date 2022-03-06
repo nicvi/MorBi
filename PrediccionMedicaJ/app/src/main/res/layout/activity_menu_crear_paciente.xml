@@ -1,0 +1,116 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OperationOverPatient.menuCrearPaciente">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:fontFamily="@font/adamina"
+                android:paddingHorizontal="20dp"
+                android:text="Registro"
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/imgViewPatient"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        app:srcCompat="@android:drawable/btn_star_big_on" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/btnImportPatientImg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:text="Importar imagen" />
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="10dp"
+                android:orientation="vertical">
+
+                <com.google.android.material.tabs.TabLayout
+                    android:id="@+id/ParametrosPacienteTabLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    tools:ignore="SpeakableTextPresentCheck">
+
+                    <!-- <com.google.android.material.tabs.TabItem
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="General" /> -->
+
+                </com.google.android.material.tabs.TabLayout>
+
+                <FrameLayout
+                    android:id="@+id/registroInfoPacienteFrameLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnRegisterPatient"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Registrar" />
+
+            <Button
+                android:id="@+id/btnCrearJSON"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="crear json" />
+
+            <Button
+                android:id="@+id/btnEnviarJSON"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="enviar JSON" />
+
+            <Button
+                android:id="@+id/getConsultFromOrion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="obtener consulta" />
+
+        </LinearLayout>
+</ScrollView>

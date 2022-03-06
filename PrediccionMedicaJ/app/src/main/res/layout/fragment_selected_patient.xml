@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.clinicHistory.PatientSelected.SelectedPatientFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="25dp"
+            android:text="@string/patientTittle"
+            android:textColor="#223263"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageViewPatientSelected"
+                android:layout_width="281dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:scaleType="fitCenter" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView_patientName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:maxLength="47"
+                    android:text="@string/patientName"
+                    android:textAlignment="viewStart"
+                    android:textColor="#223263"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/textView_patientAge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:text="@string/patientAge"
+                    android:textColor="#223263" />
+
+                <TextView
+                    android:id="@+id/textView_patientSex"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:text="@string/patientSex"
+                    android:textColor="#FF202B4D" />
+
+                <TextView
+                    android:id="@+id/textView_patientId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:text="@string/patientId"
+                    android:textColor="#FF202B4D" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageViewSemaphore"
+                android:layout_width="200dp"
+                android:layout_height="350dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:src="@drawable/semaphoreoff" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView_selectedPatientAnemiaConsulted"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/anemiaConsult"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="#63656B"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:id="@+id/textView_selectedPatientDiabetesConsulted"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/diabetesConsult"
+                    android:textAlignment="center"
+                    android:textColor="#FF63656B"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:id="@+id/textView_selectedPatientDeceaseConsult"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="25dp"
+                    android:text="@string/deceaseConsult"
+                    android:textAlignment="center"
+                    android:textColor="#FF63656B"
+                    android:textSize="22sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_margin="25dp"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:cardCornerRadius="50dp">
+
+                <ImageButton
+                    android:id="@+id/imageButton_consultAnemia"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="false"
+                    android:backgroundTint="#D7ECC8"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/btnconsultanemia" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:cardCornerRadius="50dp">
+
+                <ImageButton
+                    android:id="@+id/imageButton_consultDiabetes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#C6E5FF"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/btnconsultardiabetes" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:cardCornerRadius="50dp">
+
+                <ImageButton
+                    android:id="@+id/imageButton_consultDecease"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#EDD1FF"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/btnconsultarfallacardiaca" />
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

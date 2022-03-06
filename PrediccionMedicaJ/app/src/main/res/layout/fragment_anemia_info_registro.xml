@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OperationOverPatient.anemiaInfoRegistroFragment">
+
+    <LinearLayout
+        android:id="@+id/linearLayoutAnemia"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- Hemoglobina -->
+
+        <TextView
+            android:id="@+id/textViewAnemia_hemoglobin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:fontFamily="@font/alegreya_bold"
+            android:text="Hemoglobina"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/TextInputLayoutHemoglobin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtIn_hemoglobin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:hint="12.7"
+                android:inputType="numberDecimal"
+                android:textColorHint="#FFFFFF" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- MCH -->
+
+        <TextView
+            android:id="@+id/textViewAnemia_mch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:fontFamily="@font/alegreya_bold"
+            android:text="MCH"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/TextInputLayoutMCH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtIn_mch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:hint="19.5"
+                android:inputType="numberDecimal"
+                android:textColorHint="#FFFFFF" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- MCHC -->
+
+        <TextView
+            android:id="@+id/textViewAnemia_mchc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:fontFamily="@font/alegreya_bold"
+            android:text="MCHC"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/TextInputLayoutMCHC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtIn_mchc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:hint="28.9"
+                android:inputType="numberDecimal"
+                android:textColorHint="#FFFFFF" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- MCV -->
+
+        <TextView
+            android:id="@+id/textViewAnemia_mcv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:fontFamily="@font/alegreya_bold"
+            android:text="MCV"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/TextInputLayoutMCV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtIn_mcv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:hint="82.9"
+                android:inputType="numberDecimal"
+                android:textColorHint="#FFFFFF" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+</FrameLayout>
