@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_svgrepo_com"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_perfil"
+            android:icon="@drawable/user_profile_svgrepo_com"
+            android:title="@string/menu_perfil" />
+        <item
+            android:id="@+id/nav_historial_consultas"
+            android:icon="@drawable/clinic_history_svgrepo_com"
+            android:title="@string/menu_historial_consultas" />
+        <item
+            android:id="@+id/nav_pacientes"
+            android:icon="@drawable/add_user_svgrepo_com"
+            android:title="@string/menu_pacientes" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/wrench_tools_configuration_setting_settings_repair_svgrepo_com"
+            android:title="@string/menu_configuracion" />
+    </group>
+
+    <item android:title="@string/nav_support">
+        <menu>
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/help_svgrepo_com"
+                android:title="@string/menu_help"/>
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@android:drawable/sym_action_email"
+                android:title="@string/menu_feedback"/>
+        </menu>
+    </item>
+</menu>

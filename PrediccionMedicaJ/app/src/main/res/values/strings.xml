@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">MorbiTor</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="registerPatient">Registrar paciente</string>
+    <string name="modifyPatient">Modificar paciente</string>
+    <string name="consultDiseases">Consultar enfermedad</string>
+    <string name="title_activity_main_menu">MainMenuActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_configuracion">Configuración</string>
+    <string name="nav_support">Soporte</string>
+    <string name="menu_help">Ayuda</string>
+    <string name="menu_feedback">Envíanos comentarios</string>
+    <!-- login_fragments -->
+    <string name="app_logo">appLogo</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="signin">Registrarse</string>
+    <string name="user">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="userExample">nicvi_full</string>
+    <string name="passwordExample">***********</string>
+    <!-- mobile_navigation -->
+    <string name="menu_home">Menú principal</string>
+    <string name="menu_perfil">Perfil</string>
+    <string name="menu_historial_consultas">Historial médico</string>
+    <string name="menu_pacientes"> Registro pacientes </string>
+    <string name="menuCreatePatient"> Ingreso de datos </string>
+    <string name="menuSelectedPatient"> Consultar Enfermedad </string>
+
+    <!-- fragment_home -->
+    <string name="paragraph1_LI">Id esse qui autem quibusdam quisquam neque asperiores. Accusamus ipsam possimus vitae aut sunt quis sit. Incidunt veritatis optio cum optio. Animi asperiores quis nihil neque. Architecto et sapiente aut autem. Incidunt veritatis optio cum optio.</string>
+    <string name="paragraph21_LI">Id esse qui autem quibusdam quisquam neque asperiores. Accusamus ipsam possimus vitae aut sunt quis sit. Incidunt veritatis optio cum optio. Animi asperiores quis nihil neque. Architecto et sapiente aut autem. Incidunt veritatis optio cum optio. Facilis voluptatem enim qui.</string>
+    <string name="paragraph22_LI">Corrupti quo incidunt provident sed animi ullam.</string>
+    <string name="tittle_LI">Lorem Ipsum Dolor Sit Amet</string>
+    <!-- fragment_general_info_registro -->
+    <string name="SexM">M</string>
+    <string name="SexF">F</string>
+    <!-- fragment_falla_cardiaca_info_registro -->
+    <string name="No">No</string>
+    <string name="Si">Si</string>
+    <!-- fragment_diabetes_info_registro -->
+    <string name="noRealiza">No realiza</string>
+    <string name="mañana">Mañana</string>
+    <string name="noche">Noche</string>
+    <string name="mañana_Noche">Mañana y Noche</string>
+    <!-- nav_header_main_menu -->
+    <string name="userName">Madrid Figueroa</string>
+    <!-- fragment_pacientes -->
+    <string name="optionsOverPatients">Escoja opción</string>
+    <string name="patients">Pacientes</string>
+    <string name="addNewPatient">Agregar nuevo paciente</string>
+    <string name="consultIll">Realizar consulta</string>
+    <!-- activity_main_menu -->
+    <string name="logOut">Cerrar sesión</string>
+    <!-- fragment_create_pacientes -->
+    <string name="importUserImage">Importar imagen</string>
+    <string name="Registro">Registrar</string>
+    <string name="userImage">userImage</string>
+    <!-- fragment_clinic_history -->
+    <string name="next">Siguiente</string>
+    <string name="Previous">Anterior</string>
+    <string name="emptyPatientsList">No hay pacientes</string>
+    <!-- recycler_view_item -->
+    <string name="patientName">Nombre: </string>
+    <string name="anemiaConsult">Consultar anemia</string>
+    <string name="diabetesConsult">Consultar diabetes</string>
+    <string name="deceaseConsult">Consultar probabilidad de deceso</string>
+    <!-- CardCaptionedImageAdapter -->
+    <string name="anemiaHighProbability">Tiene anemia</string>
+    <string name="anemiaLowProbability">No tiene anemia</string>
+    <string name="diabetesHighProbability">Tiene diabetes</string>
+    <string name="diabetesLowProbability">No tiene diabetes</string>
+    <string name="deceaseHighProbability">Alta probabilidad de deceso</string>
+    <string name="deceaseLowProbability">Baja probabilidad de deceso</string>
+    <!-- fragment_selected_patient -->
+    <string name="patientAge">Edad: %1$d</string>
+    <string name="patientSex">Sexo: %1$s</string>
+    <string name="patientId">ID: %1$d</string>
+    <string name="patientTittle">Paciente</string>
+    <!-- SelectedPatientFragment.java -->
+    <!-- <string name="hasAnemia">Tiene anemia</string>
+    <string name="hasNotAnemia">No tiene anemia</string>
+    <string name="hasDiabetes">Tiene diabetes</string>
+    <string name="hasNotDiabetes">No tiene diabetes</string>
+    <string name="hasDecease">Alta probabilidad de deceso</string>
+    <string name="hasNotDecease">Baja probabilidad de deceso</string>-->
+
+
+    <string name="welcome_messages">Hello, %1$s! You have %2$d new messages.</string>
+</resources>

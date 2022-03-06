@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ToolbarColoredBackArrow" parent = "Theme.PrediccionMedicaJ.NoActionBar" >
+        <item name="android:textColorSecondary">#373737</item>
+    </style>
+</resources>

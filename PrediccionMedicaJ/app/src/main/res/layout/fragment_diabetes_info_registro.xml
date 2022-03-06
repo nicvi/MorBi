@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OperationOverPatient.diabetesInfoRegistroFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- Glucosa -->
+
+        <TextView
+            android:id="@+id/textViewDiabetes_glucose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:fontFamily="@font/alegreya_bold"
+            android:text="Glucosa"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtIn_glucose"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:hint="148"
+                android:inputType="number"
+                android:textColorHint="#FFFFFF" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Presion sanguinea -->
+
+        <TextView
+            android:id="@+id/textViewDiabetes_bloodPressure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:fontFamily="@font/alegreya_bold"
+            android:text="Presion sanguinea"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtIn_bloodPressure"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:hint="72"
+                android:inputType="number"
+                android:textColorHint="#FFFFFF" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Grosor de piel -->
+
+        <TextView
+            android:id="@+id/textViewDiabetes_skinThickness"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:fontFamily="@font/alegreya_bold"
+            android:text="Grosor de piel"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtIn_skinThickness"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:hint="56"
+                android:inputType="number"
+                android:textColorHint="#FFFFFF" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Insulina -->
+
+        <TextView
+            android:id="@+id/textViewDiabetes_insulin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:fontFamily="@font/alegreya_bold"
+            android:text="Insulina"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtIn_insulin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:hint="100"
+                android:inputType="number"
+                android:textColorHint="#FFFFFF" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- BMI -->
+
+        <TextView
+            android:id="@+id/textViewDiabetes_bmi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:fontFamily="@font/alegreya_bold"
+            android:text="BMI"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtIn_bmi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:hint="53.2"
+                android:inputType="numberDecimal"
+                android:textColorHint="#FFFFFF" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Funcion del pedigri de la diabetes -->
+
+        <TextView
+            android:id="@+id/textViewDiabetes_diabetesPF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:fontFamily="@font/alegreya_bold"
+            android:text="Funcion del pedigri de la diabetes"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtIn_diabetesPF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:hint="0.759"
+                android:inputType="numberDecimal"
+                android:textColorHint="#FFFFFF" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- calorieIntake de diabetes -->
+
+        <TextView
+            android:id="@+id/textViewDiabetes_calorieIntake"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:fontFamily="@font/alegreya_bold"
+            android:text="Calorie Intake"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtIn_calorieIntake"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:hint="4100.1"
+                android:inputType="numberDecimal"
+                android:textColorHint="#FFFFFF" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Ejercicio -->
+
+        <TextView
+            android:id="@+id/textViewDiabetes_exercise"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:fontFamily="@font/alegreya_bold"
+            android:text="Ejercicio"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupExercise"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="20dp">
+
+            <RadioButton
+                android:id="@+id/radioButtonNoRealiza"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/noRealiza" />
+
+            <RadioButton
+                android:id="@+id/radioButtonMañana"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mañana" />
+
+            <RadioButton
+                android:id="@+id/radioButtonNoche"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/noche" />
+
+            <RadioButton
+                android:id="@+id/radioButtonMañana_Noche"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mañana_Noche" />
+        </RadioGroup>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Horas de sueño -->
+
+        <TextView
+            android:id="@+id/textViewDiabetes_sleepDuration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:fontFamily="@font/alegreya_bold"
+            android:text="Horas de sueño"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtIn_sleepDuration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:hint="9"
+                android:inputType="number"
+                android:textColorHint="#FFFFFF" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

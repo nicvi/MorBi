@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/nic0_/AndroidStudioProjects/PrediccionMedicaJ/app/src/main/res/layout/fragment_diabetes_info_registro.xml" value="0.34074074074074073" />
+        <entry key="..\:/Users/nic0_/AndroidStudioProjects/PrediccionMedicaJ/app/src/main/res/layout/fragment_general_info_registro.xml" value="0.2817028985507246" />
+        <entry key="app/src/main/res/drawable/shadow_button_layer_list.xml" value="0.31866666666666665" />
+        <entry key="app/src/main/res/layout/activity_consult_diagnosis.xml" value="0.3009009009009009" />
+        <entry key="app/src/main/res/layout/activity_login_menu.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main_menu.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_menu_consultar_enfermedades.xml" value="0.19054054054054054" />
+        <entry key="app/src/main/res/layout/activity_menu_crear_paciente.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_menu_modificar_paciente.xml" value="0.19054054054054054" />
+        <entry key="app/src/main/res/layout/activity_modify_patient.xml" value="0.31216216216216214" />
+        <entry key="app/src/main/res/layout/activity_pacientes.xml" value="0.19054054054054054" />
+        <entry key="app/src/main/res/layout/app_bar_main_menu.xml" value="0.19054054054054054" />
+        <entry key="app/src/main/res/layout/card_captioned_image_adapter.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/content_main_menu.xml" value="0.19054054054054054" />
+        <entry key="app/src/main/res/layout/fragment_anemia_info_registro.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/fragment_clinic_history.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_create_patient.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_diabetes_info_registro.xml" value="0.31430805316653637" />
+        <entry key="app/src/main/res/layout/fragment_falla_cardiaca_info_registro.xml" value="0.2851063829787234" />
+        <entry key="app/src/main/res/layout/fragment_feedback.xml" value="0.19054054054054054" />
+        <entry key="app/src/main/res/layout/fragment_front_page_logo.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_gallery.xml" value="0.19054054054054054" />
+        <entry key="app/src/main/res/layout/fragment_general_info_registro.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_help.xml" value="0.19054054054054054" />
+        <entry key="app/src/main/res/layout/fragment_historial_consultas.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.5250836120401338" />
+        <entry key="app/src/main/res/layout/fragment_login_menu.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_pacientes.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_patient_selected.xml" value="0.16111111111111112" />
+        <entry key="app/src/main/res/layout/fragment_selected_patient.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_settings.xml" value="0.19054054054054054" />
+        <entry key="app/src/main/res/layout/fragment_slideshow.xml" value="0.19054054054054054" />
+        <entry key="app/src/main/res/layout/nav_header_main_menu.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/recycler_view_item.xml" value="0.22" />
+        <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.31216216216216214" />
+        <entry key="app/src/main/res/menu/main_menu.xml" value="0.19054054054054054" />
+        <entry key="app/src/main/res/xml/network_security_config.xml" value="0.17314814814814813" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
